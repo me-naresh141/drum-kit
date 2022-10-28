@@ -1,0 +1,74 @@
+@import './reset.css';
+* {
+  box-sizing: border-box;
+}
+body {
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-image: url('https://keyframemagazine.org/wp-content/uploads/2021/02/Abelle-Hayford-2-1024x614.jpg');
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 5rem;
+  color: blue;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 4px -2px 4px rgb(128, 155, 236);
+}
+.container {
+  max-width: 1600px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.band-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px double rgb(115, 131, 202);
+  color: olivedrab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 700;
+  flex-direction: column;
+  box-shadow: 0px 0px 1px 4px rgb(115, 131, 202);
+  text-shadow: 2px -1px 2px rgb(233, 119, 191);
+}
+strong {
+  font-size: 1rem;
+  display: block;
+  color: pink;
+  color: white;
+}
+
+.playing {
+  border: 4px solid orange;
+  background-color: rgb(13, 189, 83);
+  color: white;
+  transform: scale(1.5);
+}
+@media screen and (max-width: 768px) {
+  .band-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+  }
+  .item {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+}
