@@ -18,7 +18,7 @@ You can see here live demo  https://me-naresh141.github.io/drum-kit/.
 
 
 ## Documentation
- When you can pree key after that you listen a sound.
+ When you can press key after that you listen a sound.
 
 
 
